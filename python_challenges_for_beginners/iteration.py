@@ -23,3 +23,4 @@ for number in range(0, 10, 1):
         previous = number - 1
     sum  = sum + number
     print(f"Current Number {number} Previous Number {previous} Sum: {sum}")
+

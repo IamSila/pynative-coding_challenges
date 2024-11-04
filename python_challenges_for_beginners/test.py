@@ -1,14 +1,17 @@
 
 
 
-def solution(num1: int, num2: int) -> int:
-    sum = num1 + num2
-    prod = num1 * num2
+#slicing
 
-    if prod <= 1000:
-        return f"The result is {prod}"
-    else:
-        return f"The result is {sum}"
-    
-result = solution(40, 30)
-print(result)
+x = ['P', 'Y', 'n', 'a', 't', 'i', 'v', 'e']
+
+#slicing in lists
+list(map(lambda i: print(i), x[:-1:2]))
+
+
+# start: end: step
+#         -1:  2
+
+name = ["Ch","el","sea"]
+
+print(sorted(name))
