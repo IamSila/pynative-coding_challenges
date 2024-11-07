@@ -16,10 +16,10 @@ Note: n must be less than the length of the string.
 """
 
 
-def remove_char(string, n):
+def remove_chars(string, n):
     """removes the first n chars from the string"""
     return string[n:]
 
 
-result = remove_char("string", 3)
+result = remove_chars("PYnative", 4)
 print(result)
